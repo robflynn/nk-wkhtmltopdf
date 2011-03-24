@@ -1,0 +1,8 @@
+#!/usr/bin/ruby
+
+if RUBY_PLATFORM =~ /linux/
+    executable = 'wkhtmltopdf_linux_i386'
+end
+
+executable = File.join(File.dirname(__FILE__), executable)
+system(executable + " " + $*.join(" "))

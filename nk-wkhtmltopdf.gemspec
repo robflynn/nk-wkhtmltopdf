@@ -6,11 +6,11 @@ Gem::Specification.new do |s|
   s.name        = "nk-wkhtmltopdf"
   s.version     = Nk::Wkhtmltopdf::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["TODO: Write your name"]
-  s.email       = ["TODO: Write your email address"]
-  s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.authors     = ["Rob Flynn"]
+  s.email       = ["rob@thingerly.com"]
+  s.homepage    = "http://github.com/robflynn/nk-wkhtmltopdf"
+  s.summary     = %q{Provides binaries for WKHTMLTOPDF.}
+  s.description = %q{Provides binaries for WKHTMLTOPDF project in an easily accessible package.}
 
   s.rubyforge_project = "nk-wkhtmltopdf"
 
