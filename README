@@ -1,4 +1,2 @@
-This gem currently only supports linux i386/amd64.
-
-It was created to scratch an itch that I had for a project. It will eventually be released as a multi-platform gem but until then it will likely remain on github only.
+This gem provides static binary packages for wkhtmltopdf for both linux i386 and darwin i386.
 
