@@ -4,6 +4,8 @@ if RUBY_PLATFORM =~ /linux/
     executable = 'wkhtmltopdf_linux_i386'
 elsif RUBY_PLATFORM =~ /darwin/
     executable = 'wkhtmltopdf_darwin_i386'
+else
+  raise "A linux and/or Intel based OSX system is required to use this installation."
 end
 
 executable = File.join(File.dirname(__FILE__), executable)
