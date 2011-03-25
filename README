@@ -1,2 +1,4 @@
+I hadn't seen the existing gems updated in a while so I decided to update them and start maintaining a release for myself.
+-
 This gem provides static binary packages for wkhtmltopdf for both linux i386 and darwin i386.
 
