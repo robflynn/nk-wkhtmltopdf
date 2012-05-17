@@ -3,7 +3,7 @@
 if RUBY_PLATFORM =~ /linux/
     executable = 'wkhtmltopdf_linux_i386'
 elsif RUBY_PLATFORM =~ /darwin/
-    executable = 'wkhtmltopdf_darwin_i386'
+    executable = 'wkhtmltopdf_darwin_x64'
 else
   raise "A linux and/or Intel based OSX system is required to use this installation."
 end
