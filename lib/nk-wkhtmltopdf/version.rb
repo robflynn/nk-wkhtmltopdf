@@ -1,5 +1,5 @@
 module Nk
   module Wkhtmltopdf
-    VERSION = "0.11.0.rc1"
+    VERSION = "0.11.0.rc2"
   end
 end
